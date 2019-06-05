@@ -2,7 +2,7 @@
 ### Install: 
 Clone this repo and copy the shell script to a location of your choice i.e. /usr/local/bin 
 ```bash
- git clone "https://github.com/mhagglun/RepositoryCreator.git"
+ git clone https://github.com/mhagglun/RepositoryCreator.git
 ```
 Edit the shell script repositorycreator by replacing the <oAUTH token> with a personal access token generated from your [github page](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line). Make sure that it is given access to edit your repositories.
 
