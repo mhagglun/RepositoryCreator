@@ -4,9 +4,11 @@ Clone this repo and copy the shell script to a location of your choice i.e. /usr
 ```bash
  git clone https://github.com/mhagglun/RepositoryCreator.git
 ```
-Edit the shell script repositorycreator by replacing the <oAUTH token> with a personal access token generated from your [github page](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line). Make sure that it is given access to edit your repositories.
 
-Also make sure that your github username is set by running
+#### Important
+Edit the repositorycreator.sh and replace the **oAUTH-TOKEN** with a personal access token generated from your [github page](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line). Check the box that says **public_repo**
+
+Next make sure that your github username is set by running
 ```bash
 git config --global user.name
 ```
@@ -29,3 +31,7 @@ to your .bashrc or .zshrc
 ```bash
 createRepo <YOUR REPOSITORY NAME>
 ```
+Your new repository will now be in ~/Documents/YOUR REPOSITORY NAME and initiated on
+your github profile.
+
+That's all, Cheers!
