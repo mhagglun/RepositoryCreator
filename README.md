@@ -1,6 +1,6 @@
 > A simple little script to automate the repository creation process. It creates and pushes to a new github repository directly from the command line.
 ### Install: 
-Clone this repo and copy the shell script to a location of your choice i.e. /usr/local/bin 
+Clone this repo and copy the shell script to a location of your choice, for example: /usr/local/bin 
 ```bash
  git clone https://github.com/mhagglun/RepositoryCreator.git
 ```
